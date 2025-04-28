@@ -5,6 +5,7 @@ import PokemonList from './components/PokemonList';
 import Loader from './components/Loader';
 import Error from './components/Error';
 import EmptyState from './components/EmptyState';
+import Footer from './components/Footer';  
 import './App.css';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       ) : (
         <EmptyState />
       )}
+      <Footer /> 
     </div>
   );
 }
